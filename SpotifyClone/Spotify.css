@@ -1,13 +1,13 @@
 #navbar {
+    display: flex;
     background-color: black;
+    justify-content: center;
+    align-items: center;
     height: 40px;
     width: 100%;
     position: absolute;
     top: 0;
     left: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     padding: 5px 0px;
     padding-left: 0;
 }
@@ -16,16 +16,16 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height:37px;
-    width: 37px;
+    height:40px;
+    width: 40px;
     background-color: rgb(0, 0, 0);
-    
     
 }
 
 .main-logo {
     height: 70px;
-    width: 30px;
+    width: 37px;
+    
 }
 
 .center-bar {
@@ -43,16 +43,19 @@
     border-radius: 45px;
     border-image-source: none;
     border: none;
-    height: 37px;
-    padding: 7px 7px;
-    padding-right: 5px;
+    height: 35px;
+    width:  35px;
 }
 
 .sc-icon {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    scale: 1;
+    
+    
+}
+
+#icon {
+    height: 20px;
+    width: 20px;
+
 }
 
 .searchbar-box {
@@ -63,9 +66,16 @@
     padding-left: 7px;
 }
 
-#searchbar {
+.searchbar {
     width: 100%;
     border-radius: 30px;
+    border: none;
+    color: rgb(255, 255, 255);
+    background-color: #2b2b2b;
+    text-align: center;
+    font-size: 16px;
+    
+    
     
 }
 
